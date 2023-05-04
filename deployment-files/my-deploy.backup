@@ -52,7 +52,7 @@ metadata:
     app: "sysdig-agent"
 type: Opaque
 data:
- access-key : "OWE2ZTBiMTktZWUwYi00YzgwLWJkM2QtYTFiMjQxZjc1ZTQ3"
+ access-key : $ACCESSKEY
 ---
 # Source: sysdig-deploy/charts/kspmCollector/templates/secret.yaml
 apiVersion: v1
@@ -67,7 +67,7 @@ metadata:
     app.kubernetes.io/managed-by: Helm
 type: Opaque
 data:
- access-key : "OWE2ZTBiMTktZWUwYi00YzgwLWJkM2QtYTFiMjQxZjc1ZTQ3"
+ access-key : $ACCESSKEY
 ---
 # Source: sysdig-deploy/charts/nodeAnalyzer/templates/secrets.yaml
 apiVersion: v1
@@ -82,7 +82,7 @@ metadata:
     app.kubernetes.io/managed-by: Helm
 type: Opaque
 data:
- access-key : "OWE2ZTBiMTktZWUwYi00YzgwLWJkM2QtYTFiMjQxZjc1ZTQ3"
+ access-key : $ACCESSKEY
 ---
 # Source: sysdig-deploy/charts/agent/templates/configmap.yaml
 apiVersion: v1
